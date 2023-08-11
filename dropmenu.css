@@ -1,0 +1,43 @@
+body
+{
+background-image:url("img7.jpg");
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+box-sizing:border-box;
+position:relative;
+}
+ul
+{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+ul li{
+float:left;
+height:40px;
+width:200px;
+background-color:green;
+opacity:.8;
+line-height:40px;
+text-align:center;
+font-size:40;
+}
+ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover
+{
+background-color:red;
+}
+ul li ul li
+{
+display:none;
+}
+ul li:hover ul li
+{
+display:block;
+}

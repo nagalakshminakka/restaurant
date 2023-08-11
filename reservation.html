@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+<link rel = "stylesheet" href = "style33.css">
+<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+<table>
+<tr>
+<td width = "20%"><a href="menu.html"><font color=white>MENU</font></a></td>
+<td width = "20%"><a href="catering.html"><font color=white>CATERING</font></a></td>
+<td width = "20%"><a href="event.html"><font color=white>EVENTS</font></a></td>
+<td width = "20%"><a href="reservation.html"><font color=white>BOOKINGS</font></a></td>
+<td width = "20%"><a href="aboutus.html"><font color=white>ABOUT US</font></a></td>
+</table>
+  <div class="container">
+    <h1>RESERVATION FORM</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+          <td><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+        <tr>
+          <td><label for="people">PEOPLE:</label></td>
+          <td>
+            <select name="people" id="people">
+              <option value="">Select  people</option>
+              <option value="10 pople">10 PEOPLE</option>
+              <option value="11 people">11 PEOPLE</option>
+              <option value="12 people">12 PEOPLE</option>
+              <option value="13 people">13 PEOPLE</option>
+              <option value="14 people">14 PEOPLE</option>
+            </select>
+          </td>
+        </tr>
+         <tr>
+          <td><label for="time">TIME:</label></td>
+          <td>
+            <select name="time" id="time">
+              <option value="">Select  time</option>
+              <option value="10 am">10 AM</option>
+              <option value="11 am">11 AM</option>
+              <option value="12 am">1 PM</option>
+              <option value="13 am">2 PM</option>
+              <option value="14 am">3 PM</option>
+            </select>
+          </td>
+        </tr>
+             <tr>
+          <td><label for="occasion">OCCASION:</label></td>
+          <td>
+            <select name="occasion" id="occasion">
+              <option value="">Select  time</option>
+              <option value="anniversary">ANNIVERSARY</option>
+              <option value="baby shower">BABY SHOWER</option>
+              <option value="bachelor party">BACHELOR PARTY</option>
+              <option value="family party">FAMILY PARTY</option>
+              <option value="birthday party">BIRTHDAY PARTY</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="request">REQUEST:</label></td>
+          <td><textarea name="request" id="request" placeholder="Write about your request..."></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" id = "submit" value="Register"  /></td>
+      </tr>
+      </table>
+    <closeform></closeform></form>
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>

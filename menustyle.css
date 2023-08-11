@@ -1,0 +1,17 @@
+body
+{
+background-color:pink;
+background-size:cover;
+background-position:center;
+font-family:sans-sarif;
+box-sizing:border-box;
+}
+h1
+{
+text-align:center;
+}
+li
+{
+display:inline;
+padding:5px;
+}

@@ -1,0 +1,22 @@
+body
+{
+background-image:url("lomo.jpg");
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+box-sizing:border-box;
+font-color:yellow;
+font-size:20px;
+}
+table
+{
+width:100%;
+background-color:black;
+text-align:center;
+padding:15px;
+}
+header h2
+{
+text-align:center;
+padding:500px;
+}
